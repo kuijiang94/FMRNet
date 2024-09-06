@@ -1,5 +1,5 @@
 # FMRNet
-FMRNet: Image Deraining via Frequency Mutual Revision
+FMRNet: Image Deraining via Frequency Mutual Revision 
 
 ## Training
 - Download the [Datasets](Datasets/README.md)
@@ -27,3 +27,15 @@ python test.py
 evaluate_PSNR_SSIM.m 
 ```
 
+#### Reference:
+If you find our code or ideas useful, please cite:
+
+@inproceedings{Jiang2023FMRNet,
+  title={FMRNet: Image Deraining via Frequency Mutual Revision},
+  author={Jiang, Kui and Jiang, Junjun and Liu, Xianming and Xu, Xin and Ma, Xianzheng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={11},
+  pages={12892--12900},
+  year={2024}
+}
