@@ -1,5 +1,9 @@
 # FMRNet
-FMRNet: Image Deraining via Frequency Mutual Revision 
+FMRNet: Image Deraining via Frequency Mutual Revision (AAAI'2024)
+
+[Kui Jiang](https://scholar.google.com/citations?user=AbOLE9QAAAAJ&hl)
+
+**Paper**: [FMRNet: Image Deraining via Frequency Mutual Revision](https://ojs.aaai.org/index.php/AAAI/article/view/29186)
 
 ## Training
 - Download the [Datasets](Datasets/README.md)
@@ -28,14 +32,16 @@ evaluate_PSNR_SSIM.m
 ```
 
 #### Reference:
+
 If you find our code or ideas useful, please cite:
 
-@inproceedings{Jiang2023FMRNet,
-  title={FMRNet: Image Deraining via Frequency Mutual Revision},
-  author={Jiang, Kui and Jiang, Junjun and Liu, Xianming and Xu, Xin and Ma, Xianzheng},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={38},
-  number={11},
-  pages={12892--12900},
-  year={2024}
-}
+    @article{Jiang2023FMRNet,
+        title={Magic ELF: Image Deraining Meets Association Learning and Transformer},
+        author={Jiang, Kui and Jiang, Junjun and Liu, Xianming and Xu, Xin and Ma, Xianzheng},
+        booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+        volume={38},
+        number={11},
+        pages={12892--12900},
+        year={2024}
+    }
+
